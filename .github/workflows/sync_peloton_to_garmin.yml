@@ -40,7 +40,20 @@ jobs:
             "Tcx": false,
             "SaveLocalCopy": ${{ github.event.inputs.saveLocalCopy || false }},
             "IncludeTimeInHRZones": false,
-            "IncludeTimeInPowerZones": false
+            "IncludeTimeInPowerZones": false,
+            "DeviceInfoSettings": {
+              "none": {
+              "name": "fenix 7 Pro Solar",
+              "unitId": 3474116443,
+              "productID": 4375,
+              "manufacturerId": 1,
+              "version": {
+                "versionMajor": 19,
+                "versionMinor": 41,
+                "buildMajor": 0,
+                "buildMinor": 0.0
+          }
+        } }
           },
           "Peloton": {
             "NumWorkoutsToDownload": ${{ github.event.inputs.workoutsToDownload || env.DEFAULT_WORKOUT_NUM }},
