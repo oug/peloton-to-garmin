@@ -46,7 +46,6 @@ jobs:
               "name": "fenix 7 Pro Solar",
               "unitId": 3474116443,
               "productID": 4375,
-              "manufacturerId": 1,
               "version": {
                 "versionMajor": 19,
                 "versionMinor": 41,
@@ -61,7 +60,7 @@ jobs:
           "manufacturerId": 89,
           "version": {
             "versionMajor": 1,
-            "versionMinor": 30.0,
+            "versionMinor": 30,
             "buildMajor": 0,
             "buildMinor": 0.0
           }
